@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body {
+    background: #000;
+}
+header{
+    background-image: url("/assets/strangerThings.gif");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+
+
+/*header*/
+
+nav img {
+   width: 15%;
+}
+.text-area {
+   height: 500px;
+   padding-top:300px;
+   background: transparent;
+}
+.h1-text-area {
+    font-weight: 900;
+    font-size: 45px;
+}
+
+
+/*movie-section*/
+.movie-section .image{
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.movie-section .image:hover {
+    transform: scale(105%);
+    box-shadow: 3px 5px 15px rgba(241, 4, 4, 0.932);
+  
+}
+
+/*card section*/
+.row .card {
+    background-color: rgb(41, 40, 40);
+    color: white;
+}
+
+.row .card:hover {
+    transform: scale(102%);
+}
+/*question*/
+.accordion-button {
+--bs-accordion-active-bg:rgb(41, 40, 40);
+--bs-accordion-active-color:white;
+--bs-accordion-btn-focus-box-shadow:none;
+
+}
+

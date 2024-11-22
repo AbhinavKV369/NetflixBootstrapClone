@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav class="navbar bg-transparent p-0 ">
+            <div class="container">
+                <img src="/assets/logo.png" alt="logo">
+                <form class="btn-group" role="search">
+                    <div class="dropdown m-1">
+                        <button class="btn rounded-pill border-white border-2 text-white dropdown-toggle" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            English
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><button class="dropdown-item" type="button">हिंदी</button></li>
+                        </ul>
+                    </div>
+                    <button class="btn bg-white m-1 rounded-pill" type="submit">Sign In</button>
+                </form>
+            </div>
+        </nav>
+        <div class="container text-area ">
+            <h1 class="h1-text-area text-center text-white">Unlimited movies, TV shows</h1>
+            <h1 class="h1-text-area text-center text-white">and more</h1>
+            <h5 class="h3-text-area text-white text-center">Starts at ₹149.Cancel at any time.</h5>
+        </div>
+    </header>
+    <!--get started -->
+    <section class="get-started bg-black ">
+            <div class="container ">
+                <div class="row pb-3 " style="margin-left: 100px;">
+                    <input type="email" class="col-6 text-white p-2 ms-2 bg-outline-white bg-transparent rounded-pill me-2" placeholder="">
+                    <button class="btn btn-danger col-3 p-1 me-2 rounded-pill">Get Started</button>
+                </div>
+            </div>
+    </section>
+    <!--Movie sectiion-->
+    <section class="movie-section bg-black">
+        <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="container">
+                    <h1 class="text-white fw-bold">Trending Now</h1>
+                    <div class="row">
+                        <div class="carousel-item active" style="left:10%;">
+                            <img src="/movies-assets/do patti.webp"  class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/Great indian kapil show.webp" class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/Goat.webp" class="image px-2 py-3" alt="" style=" width: 20%;">
+                            <img src="/movies-assets/sanivaaram.webp" class="image px-2 py-3" alt="" style="width:20%">
+                        </div>
+                        <div class="carousel-item active" style="left:10%;">
+                            <img src="/movies-assets/thribuvan misra.webp" class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/Kalki.webp" class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/maharaja.webp" class="image px-2 py-3" alt="" style=" width: 20%;">
+                            <img src="/movies-assets/sexlife.webp" class="image px-2 py-3" alt="" style="width:20%">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="movie-section bg-black">
+        <div id="carouselExampleRide1" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-inner">
+                <div class="container">
+                    <h1 class="text-white fw-bold">Only on Netflix</h1>
+                    <div class="row">
+                        <div class="carousel-item active" style="left:10%;">
+                            <img src="/movies-assets/money hiest.webp" class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/stranger things.webp" class="image px-2 py-3" alt=""
+                                style="width: 20%;">
+                            <img src="/movies-assets/Lucifer.webp" class="image px-2 py-3" alt="" style=" width: 20%;">
+                            <img src="/movies-assets/heeramandi.webp" class="image px-2 py-3" alt="" style="width:20%">
+                        </div>
+                        <div class="carousel-item active" style="left:10%;">
+                            <img src="/movies-assets/ic814 kandahar.webp" class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/Queen of tears.webp" class="image px-2 py-3" alt="" style="width: 20%;">
+                            <img src="/movies-assets/Squid game.webp" class="image px-2 py-3" alt="" style=" width: 20%;">
+                            <img src="/movies-assets/lincoln lawyer.webp" class="image px-2 py-3" alt="" style="width:20%">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--reason cards-->
+    <section class="reason-section ">
+        <div class="container-fluid bg-black pt-5">
+            <div class="row g-3">
+                <div class="col-md-3 col-sm-12">
+                    <div class="card pt-4 pb-4">
+                        <h4 class="text-center">Stories Tailored to your taste</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="card pt-4 pb-4">
+                        <h4 class="text-center">Cancel or switch plans anytime</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="card pt-4 pb-4">
+                        <h4 class="text-center">A place just for kids and family</h4>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <div class="card pt-3 pb-1">
+                        <h4 class="text-center">For your phone,laptop,television,e.t.c</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Question-->
+    <section class="questions bg-black">
+        <div class="container pt-4 pb-4">
+        <h1 class="text-white fw-bold ">Frequently Asked Questions</h1>
+        <div class="accordion" id="accordionPanelsStayOpenExample"> 
+            <div class="accordion-item item1 mt-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-white .rounded" style=" background-color: rgb(41, 40, 40);" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseOne">
+                       <p> What is Netflix? </p>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse " style=" background-color: rgb(41, 40, 40);">
+                    <div class="accordion-body">
+                       <p class="text-white">Netflix is an American subscription video on-demand over-the-top streaming service. The service primarily distributes
+                    original and acquired films and television shows from various genres, and it is available internationally in multiple
+                    languages</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item item2 mt-3 ">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-white" style=" background-color: rgb(41, 40, 40);" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseTwo">
+                       <p>How much Netflix cost?</p>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse " style="background: rgb(41, 40, 40);">
+                    <div class="accordion-body">
+                        <p class="text-white">Plans range from $6.99 to $22.99 a month. No extra costs, no contracts.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item item3 mt-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-white" style=" background-color: rgb(41, 40, 40);" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseThree">
+                       <p>Where can I watch?</p>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse " style="background: rgb(41, 40, 40);">
+                    <div class="accordion-body">
+                        <p class="text-white">You can watch Netflix through any supported internet-connected device that offers the Netflix app, including smart TVs,
+                        game consoles, streaming media players, cable boxes, smartphones, and tablets.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item item4 mt-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-white" style=" background-color: rgb(41, 40, 40);" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFour">
+                        <p>How can I cancel?</p>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse " style="background: rgb(41, 40, 40);">
+                    <div class="accordion-body">
+                        <p class="text-white">Go to netflix.com/cancelplan.<br>
+                        Select Finish Cancellation. Your account will close at the end of your current billing cycle, and you won't be charged
+                        again.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item item5 mt-3">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-white" style=" background-color: rgb(41, 40, 40);" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseFive">
+                        <p>What can I watch on Netflix?</p>
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse " style="background: rgb(41, 40, 40);">
+                    <div class="accordion-body">
+                        <p class="text-white fw-bold">New on Netflix</p> <br>
+                       <p class="text-white">1.The Diplomat.<br>
+                        2.Demon Slayer: Kimetsu no Yaiba.<br>
+                        3.Love Is Blind.<br>
+                        4.The Great Indian Kapil Show.<br>
+                        5.Go Ahead, Brother.<br>
+                        6.Don't Come Home.<br>
+                        7.The Manhattan Alien Abduction.<br>
+                        8.The Law According to Lidia Poët.
+                        .<br>.<br>.<br>
+                    </p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item item6 mt-3 ">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed text-white" style=" background-color: rgb(41, 40, 40);" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false"
+                        aria-controls="panelsStayOpen-collapseSix">
+                        Is Netflix good for kids?
+                    </button>
+                </h2>
+                <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse " style="background: rgb(41, 40, 40);">
+                    <div class="accordion-body">
+                        <p class="text-white">Netflix has massive catalogs of TV shows aimed at children, but it can be harder to sift through their movie library to
+                        find something that the whole family can watch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="footer-section bg-black">
+        <div class="container pt-4">
+       <p class="text-white">Questions? Call 000-800-919-1694</p>
+        <div class="footer-panel d-flex flex-directon-row justify-content-evenly slign-items-center pt-3">
+            <ul class="text-white">
+                <p>FAQ</p>
+                <a>Careers</a><br>
+                <a>Blog</a><br>
+                <a>About Netflix</a><br>
+                <a>Investor Relation</a><br>
+                <a>Netflix Devices</a><br>
+                <a>Netflix Science</a><br>
+                <br>
+                <br>
+                <div class="dropdown">
+                    <a class="btn btn-outline-white dropdown-toggle" style="color:white; border: 2px white solid;" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        English
+                    </a>
+                
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">हिंदी</a></li>
+                    </ul><br>
+                    <p class="pt-4">Netflix India</p>
+                </div>
+
+            </ul>
+            <ul class="text-white">
+                <p>Media</p>
+                <a>Jobs</a><br>
+                <a>Ways</a><br>
+                <a>Kids</a><br>
+                <a>Family</a><br>
+                <a>Watch Anywhere</a><br>
+                <a>Watch Shows</a>
+                <a></a>
+            </ul>
+            <ul class="text-white">
+                <p>Get to Know us</p>
+                <a>Contact</a><br>
+                <a>Email</a><br>
+                <a>About shows</a><br>
+                <a>Feel free to ask</a><br>
+                <a>Devices issues</a><br>
+                <a>Legal notices</a>
+            </ul>
+        </div>
+        </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
